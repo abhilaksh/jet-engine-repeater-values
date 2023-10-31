@@ -44,9 +44,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 function register_dynamic_tag_group( $dynamic_tags ) {
 
 	\Elementor\Plugin::instance()->dynamic_tags->register_group(
-		'runthings',
+		'alpdigital',
 		[
-			'title' => esc_html__( 'runthings.dev', 'jet-engine-repeater-values' )
+			'title' => esc_html__( 'Alp Digital', 'jet-engine-repeater-values' )
 		]
 	);
 
